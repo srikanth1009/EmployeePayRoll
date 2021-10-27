@@ -28,3 +28,8 @@ values('Hemanth', 25000, '2020-10-10');
 
 -- UC4
 select * from employee_payroll;
+
+-- UC5
+select *
+ from employee_payroll 
+ where salary > 40000;
